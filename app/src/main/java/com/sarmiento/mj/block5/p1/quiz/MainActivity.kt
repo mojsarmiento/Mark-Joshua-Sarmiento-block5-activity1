@@ -63,19 +63,19 @@ class MainActivity : AppCompatActivity() {
 
         when{
             bmi < 18.50 ->{
-                resultText = "Underweight"
+                resultText = "You Are Underweight"
                 color = R.color.under_weight
             }
             bmi in 18.50..24.99->{
-                resultText = "Healthy"
+                resultText = "You Are Healthy"
                 color = R.color.normal
             }
             bmi in 25.00..29.99->{
-                resultText = "Overweight"
+                resultText = "You are Overweight"
                 color = R.color.over_weight
             }
             bmi >29.99->{
-                resultText = "Obese"
+                resultText = "You are Obese"
                 color = R.color.obese
             }
 
