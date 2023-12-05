@@ -8,8 +8,8 @@
     <color name="text_hint">#FFFFFFFF</color>
     <color name="btn_hint">#FFC107</color>
 
-    <color name="under_weight">#FF9800</color>
-    <color name="normal">#4CAF50</color>
-    <color name="over_weight">#CA5C5C</color>
-    <color name="obese">#F44336</color>
+    <color name="under_weight">#F3B253</color>
+    <color name="normal">#07930D</color>
+    <color name="over_weight">#B50000</color>
+    <color name="obese">#5A0701</color>
 </resources>
