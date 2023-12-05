@@ -35,11 +35,11 @@ class MainActivity : AppCompatActivity() {
 
         return when{
             weight.isNullOrEmpty()->{
-                Toast.makeText(this, "Weight is empty", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Empty fields are not allowed", Toast.LENGTH_SHORT).show()
                 return false
             }
             height.isNullOrEmpty()->{
-                Toast.makeText(this, "Height is empty", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Empty fields are not allowed", Toast.LENGTH_SHORT).show()
                 return false
             }
 
